@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pets>
+  <pet>
+    <lname>caramelo</lname>
+    <name>Caramelo</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>31 October 2012</dob>
+    <age>10 years and 6 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Santarém</location>
+    <info>Caramelo is a large male dog, born around 2012. He was given away by his owners because they spent many hours outside and the dog barked a lot. Neighbors began to complain. It's important to note that they've had Caramel since he was a baby! Initially, they left the dog "temporarily" until they found a solution... as always happens, the "temporary" became "definitive". Caramel is a very shy dog. It takes time and patience for him to trust people. However, he is a sweet and playful dog, sociable with all other dogs. He knows how to walk on a leash. He will be delivered vaccinated, dewormed and sterilized.</info>
+  </pet>
+  <pet>
+    <lname>escobar</lname>
+    <name>Escobar</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>09 July 2014</dob>
+    <age>8 years and 9 months</age>
+    <size>Medium (11-25kg)</size>
+    <location>Lisboa</location>
+    <info>Escobar is a medium-sized male dog, born in September 2014. He arrived at the shelter after being rescued from neglect and mistreatment. Despite having been through hard times, Escobar is an incredibly resilient and affectionate dog. He loves to receive human attention and warmth.</info>
+    <info>Escobar is very intelligent and learns quickly. He is always ready to embark on outdoor adventures, exploring his surroundings. With other dogs, Escobar is very sociable and does well in friendly interactions. However, due to his past history, he needs a home with a patient and devoted family that will help him overcome his insecurities and further develop his confidence.</info>
+    <info>Escobar is fully vaccinated, dewormed and neutered. He is looking forward to a loving new family who can provide him with the happy, safe home he deserves. If you're ready to pour your heart out to Escobar and give him a second chance at life, don't hesitate to meet him in person.</info>
+  </pet>
+  <pet>
+    <lname>kika</lname>
+    <name>Kika</name>
+    <type>Dog</type>
+    <gender>Female</gender>
+    <dob>31 January 2016</dob>
+    <age>7 years 3 months</age>
+    <size>Medium</size>
+    <location>Porto</location>
+    <info>Kika lived in a house, but her owner got sick and could no longer maintain her. In her old home Kika lived a quiet life, so coming to a shelter with 700 dogs was a shock for her - too much noise and too little attention. Just take her for a walk outside the shelter and we see a difference in her behavior - Kika doesn't like being in the shelter and needs a home. She is the sweetest thing imaginable, sweet and kissable, she trusts people and seeks their protection. She is a wonderful and loving girl. She can easily live with other dogs: two, three or four - but not 700. She walks well on a leash. She was born in February 2016. She will be delivered vaccinated, dewormed and sterilized.</info>
+  </pet>
+  <pet>
+    <lname>kinder</lname>
+    <name>Kinder</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>10 February 2015</dob>
+    <age>8 years and 4 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Coimbra</location>
+    <info>Kinder is an imposing large male dog, born in February 2015. He has a majestic presence and an endearing personality. Kinder came to the shelter due to unfortunate circumstances, but he's looking forward to finding a loving home where he can be truly appreciated.</info>
+    <info>Despite its impressive size, Kinder is a gentle and docile dog. He loves to be petted and will not hesitate to reciprocate with unwavering loyalty. Kinder is known for its calm and quiet nature, making it a true trustworthy companion.</info>
+    <info>Kinder loves the outdoors, whether it's exploring nature or playing exciting games. His playful personality and affectionate disposition make him a very sociable dog with other animals and people. He is also well trained and demonstrates great manners when walking on a leash.</info>
+    <info>Kinder has all his vaccinations up to date, is dewormed and neutered. If you're looking for a large dog that is gentle, loving and ready to become a faithful member of your family, be sure to consider Kinder. He is ready to fill your life with joy and affection!</info>
+  </pet>
+  <pet>
+    <lname>kitty</lname>
+    <name>Kitty</name>
+    <type>Cat</type>
+    <gender>Female</gender>
+    <dob>12 April 2017</dob>
+    <age>6 years and 2 months</age>
+    <location>Faro</location>
+    <info>Kitty is a graceful cat with a soft coat and bright eyes. She was born in April 2017 and is fully enjoying her adult life. Kitty is a true feline lady, with a unique charm and a charming personality.</info>
+    <info>With her elegant bearing and confident posture, Kitty wins hearts wherever she goes. She is extremely affectionate and loves to receive pampering and attention. Her soft purrs are a true symphony of affection, demonstrating all her contentment.</info>
+    <info>Kitty is a curious and observant cat. She likes to explore her surroundings, but always with unparalleled elegance. Its smooth and cautious movements are a true feline work of art. She is also an excellent toy hunter, showing off her quick reflexes and feline skills.</info>
+    <info>Kitty is up to date on all her vaccinations and sterilized, ensuring her health and well-being. If you are looking for a loyal and loving companion, Kitty is ready to be adopted and become the star of your home. With her charming personality and captivating beauty, Kitty is sure to light up your life with love and joy.</info>
+  </pet>
+  <pet>
+    <lname>pepito</lname>
+    <name>Pepito</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>18 September 2015</dob>
+    <age>7 years and 8 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Aveiro</location>
+    <info>Pepito is a majestic dog of large size, born in September 2015. With his grandeur and charm, he is a true highlight wherever he goes. Pepito arrived at the shelter after facing some difficulties in his life, but now he is looking for a loving home that can provide him with the security and happiness he deserves.</info>
+    <info>Despite his imposing size, Pepito is an extremely gentle and affectionate dog. He loves to receive affection and attention, and his loyalty is unwavering. Pepito is known for his calm and quiet nature, making him the perfect companion for anyone looking for a calm and affectionate dog.</info>
+    <info>Pepito is also quite active and loves to explore the world around him. He's always ready to venture out into the great outdoors, whether it's a walk, run, or lively play. His sociable personality makes him a friendly dog with other animals and people.</info>
+    <info>Pepito is up to date on all his vaccinations, dewormed and sterilized. If you are looking for a large, loving dog full of character, Pepito may be the perfect companion for you. Your imposing presence and your sweet heart will certainly light up your home and bring a lot of joy to your life.</info>
+  </pet>
+  <pet>
+    <lname>pincel</lname>
+    <name>Pincel</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>25 March 2018</dob>
+    <age>5 years and 2 months</age>
+    <size>Medium (11-25kg)</size>
+    <location>Setúbal</location>
+    <info>Pincel is a charming medium-sized dog, born in March 2018. With his expressive look and vibrant personality, he wins the hearts of everyone around him. Pincel is looking for a loving home that can provide him with the affection and care he deserves.</info>
+    <info>Pincel is a very friendly and playful dog. He loves interacting with people and is always up for a good play session. His contagious energy and joie de vivre make him a fun and lively companion for the whole family.</info>
+    <info>In addition to being an excellent playmate, Brush is also quite intelligent and willing to learn. He is eager to participate in training and activities that stimulate his agile and curious mind. With patience and consistency, Pincel will be able to learn quickly and become an even more obedient and well-behaved dog.</info>
+    <info>Pincel is sociable with other dogs and tends to do well in friendly interactions. He also loves exploring nature, making him the ideal partner for hikes and outdoor adventures.</info>
+    <info>Pincel is properly vaccinated, dewormed and sterilized, ensuring your health and well-being. If you are looking for a medium-sized dog full of joy and vitality, Brush is the perfect choice. With his endearing personality and infectious energy, he'll bring lots of fun and love into your home.</info>
+  </pet>
+  <pet>
+    <lname>scott</lname>
+    <name>Scott</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>31 October 2012</dob>
+    <age>10 years and 6 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Évora</location>
+    <info>Scott is a male dog, large size, born +/- in 2013. He was delivered by the owners themselves because they spent many hours outside the house and the dog barked a lot. Neighbors began to complain. Notice that they had the dog since they were babies! Initially they left the dog "temporarily" until they found a solution.... as always happens, the "temporary" became "definitive". Scott is very shy. It takes time and patience for him to trust people. However, he is a sweet, playful dog, sociable with all dogs. He knows how to walk on a leash. He will be delivered vaccinated, dewormed and sterilized.</info>
+  </pet>
+  <pet>
+    <lname>shadow</lname>
+    <name>Shadow</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>02 August 2016</dob>
+    <age>6 years and 10 months</age>
+    <size>Large/Medium (26-45kg)</size>
+    <location>Portalegre</location>
+    <info>Shadow is an extraordinary dog, with a name that reflects his presence and mystery. He is a large/medium sized dog, born in August 2016. With his dark coat and expressive eyes, Shadow wins the hearts of everyone who meets him.</info>
+    <info>Despite his impressive size, Shadow is extremely kind and affectionate. He loves receiving affection and reciprocates with unwavering loyalty. Shadow is known for his calm and peaceful temperament, being a true friend for all hours.</info>
+    <info>Shadow has a serene and observant personality. He likes to explore the world around him, always paying attention to details. His protective nature makes him a reliable and devoted companion, able to bring security and comfort to those around him.</info>
+    <info>Shadow is also quite intelligent and is always willing to learn new commands and tricks. He likes to participate in activities that stimulate his mind and offer challenges. In addition, he gets along well with other dogs and has a sociable disposition.</info>
+    <info>Shadow has all his vaccinations up to date, is dewormed and sterilized, ensuring his health and well-being. If you are looking for a large/medium sized dog that is calm, affectionate and reliable, Shadow may be the perfect companion for you. Your remarkable presence and unconditional love will certainly bring joy and harmony to your home.</info>
+  </pet>
+  <pet>
+    <lname>tope</lname>
+    <name>Topê</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>15 December 2019</dob>
+    <age>3 years and 5 months</age>
+    <size>Small (up to 10kg)</size>
+    <location>Évora</location>
+    <info>Topê is an adorable small-sized puppy, born in December 2019. With his charming appearance and endearing personality, he is capable of melting hearts in the blink of an eye. Topê is looking for a welcoming home that can offer him all the love and care he deserves.</info>
+    <info>Despite its diminutive size, Topê has a contagious energy and is always ready to have fun. He loves to play and explore his surroundings. His enthusiasm is inspiring and he is able to bring joy to everyone around him.</info>
+    <info>Topê is an extremely sociable and friendly dog. He loves to be in the company of people and gets along very well with children and other animals. His affectionate nature makes him the perfect companion for cuddling moments.</info>
+    <info>Despite being playful, Topê is also very intelligent and willing to learn. He adapts well to training and is able to learn new commands with ease. With patience and encouragement, he will become an even more obedient and well-behaved dog.</info>
+    <info>Topê is properly vaccinated, dewormed and neutered, ensuring his health and well-being. If you are looking for a small dog that is full of joy and charisma, Topê is the perfect choice. With its compact size and endearing personality, it will fill your home with love and fun.</info>
+  </pet>
+  <pet>
+    <lname>toze</lname>
+    <name>Tozé</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>8 July 2014</dob>
+    <age>8 years and 11 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Viseu</location>
+    <info>Tozé is a large imposing dog, born in July 2014. With his strong presence and captivating personality, he is a true standout. Tozé is looking for a loving home that can provide him with the affection and attention he deserves.</info>
+    <info>Despite his impressive size, Tozé is a gentle and affectionate dog. He loves to be pampered and petted, and his loyalty is unwavering. Tozé is known for his calm and easygoing nature, being a true friend to all who meet him.</info>
+    <info>Tozé is an intelligent and obedient dog. He is ready to learn and adapt to the rules and routines of his new home. With proper training and mental stimulation, Tozé will become an even more faithful and well-behaved companion.</info>
+    <info>Despite his serenity, Tozé also loves to have fun and explore the world around him. He is a great partner for hiking and outdoor adventures. His sociable disposition makes him a friendly dog with other animals and people.</info>
+    <info>Tozé has all his vaccinations up to date, has been dewormed and sterilized, ensuring his health and well-being. If you are looking for a large dog, gentle and full of personality, Tozé is the perfect choice. With his imposing presence and loving heart, he will bring much joy and companionship to your home.</info>
+  </pet>
+  <pet>
+    <lname>ziggy</lname>
+    <name>Ziggy</name>
+    <type>Dog</type>
+    <gender>Male</gender>
+    <dob>14 February 2020</dob>
+    <age>3 years and 3 months</age>
+    <size>Large (26-45kg)</size>
+    <location>Leiria</location>
+    <info>Ziggy is a young, energetic, large dog born in February 2020. With his vibrant personality and adventurous spirit, he is always ready to explore the world around him. Ziggy is looking for a loving home that can accompany him on his adventures and offer him all the care and affection he deserves.</info>
+    <info>Ziggy is a dog full of energy and enthusiasm. He loves to run, play and have fun outdoors. His active disposition makes him the perfect companion for outdoor activities such as hiking, running and fetch games.</info>
+    <info>Despite being an energetic dog, Ziggy is extremely affectionate and affectionate. He loves to receive attention and does not spare a good belly rub. His loyalty is unshakable and he will always be by his side, ready to share moments of joy and companionship.</info>
+    <info>Ziggy is an intelligent dog who is eager to learn. He is eager to participate in training and activities that stimulate his agile mind. With patience and positive rewards, Ziggy will become an even more obedient and well-behaved dog.</info> 
+    <info>Ziggy has all his vaccinations up to date, is dewormed and sterilized, ensuring his health and well-being. If you are looking for a faithful companion, full of energy and joy, Ziggy is the perfect dog for you. With his vibrant personality and unconditional love, he will bring a lot of happiness and excitement to your home.</info>
+  </pet>
+</pets>
