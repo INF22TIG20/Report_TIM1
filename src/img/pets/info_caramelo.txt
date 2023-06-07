@@ -1,4 +1,4 @@
-Name: caramel
+Name: Caramelo
 Type of animal: Dog
 gender: male
 Date of birth: 10/31/2012 (10 years and 6 months old)
