@@ -9,11 +9,13 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
 body{
   background-image: url("/src/img/ui/bg_pattern.jpg");
   background-repeat: repeat;
   background-size: 300px;
 }
+
 
 /* HOLY GRAIL */
 .container {
@@ -101,9 +103,6 @@ header nav a:hover {
   width: 85%;
   height: 500px;
   overflow: hidden;
-  border-radius: 1rem;
-  border: 1px solid var(--color-primary);
-  box-shadow: 1px 1px 3px gray;
 }
 
 .slide-show img {
@@ -171,6 +170,10 @@ header nav a:hover {
   color: black;
 }
 
+.info-pet a:hover{
+  color: var(--color-primary);
+}
+
 .info-pet h3 {
   margin: 0;
   text-align: center;
@@ -199,9 +202,9 @@ header nav a:hover {
   margin-left: 0.5rem;
 }
 
-.info-pet a {
-  text-decoration: none;
-  color: black;
+.info-pet .learn:hover{
+  color: var(--color-primary);
+  font-style: italic;
 }
 
 footer .footer-links{
