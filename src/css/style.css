@@ -7,15 +7,14 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
   background-image: url("/src/img/ui/bg_pattern.jpg");
   background-repeat: repeat;
   background-size: 300px;
 }
-
 
 /* HOLY GRAIL */
 .container {
@@ -30,7 +29,7 @@ body{
 }
 
 header {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 main {
@@ -44,8 +43,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, .9);
-  
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media (max-width: 768px) {
@@ -72,7 +70,7 @@ header .logo img {
   margin: 1rem;
 }
 
-header nav{
+header nav {
   margin-right: 2rem;
 }
 header nav a {
@@ -165,12 +163,12 @@ header nav a:hover {
   font-size: 4rem;
 }
 
-.info-pet a{
+.info-pet a {
   text-decoration: none;
   color: black;
 }
 
-.info-pet a:hover{
+.info-pet a:hover {
   color: var(--color-primary);
 }
 
@@ -202,12 +200,12 @@ header nav a:hover {
   margin-left: 0.5rem;
 }
 
-.info-pet .learn:hover{
+.info-pet .learn:hover {
   color: var(--color-primary);
   font-style: italic;
 }
 
-footer .footer-links{
+footer .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,13 +213,13 @@ footer .footer-links{
   text-align: center;
 }
 
-footer a{
+footer a {
   margin: 0.4rem;
 }
 
 /* Contact CONTENT */
 
-.center img{
+.center img {
   margin-top: 3rem;
 }
 .center {
@@ -229,56 +227,61 @@ footer a{
   justify-content: center;
   margin: auto;
   width: 80%;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding-bottom: 5rem;
 }
 
-.center h1{
+.center h1 {
   font-size: 8rem;
   text-align: center;
 }
 
-.center .info{
+.center .info {
   margin: 2rem 0;
 }
 
-.center .info p{
+.center .info p {
   font-size: 1.5rem;
   width: 50%;
   margin: auto;
   text-align: justify;
 }
 
-.center .contacts{
-  display: flexbox;
-  width: 70%;
-  margin: auto;
-  font-size: 1.1rem;
+.center .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  width: 80%;
 }
 
-.center .contacts a{
+.center .contacts a {
   text-decoration: none;
   color: black;
+  box-sizing: border-box;
+  margin: 1rem;
 }
 
-.textbox {
-  display: inline-block;
-  width: auto;
-  height: auto;
+.center .contacts .textbox {
+  width: 30%;
+  margin: 1rem;
   background-color: var(--color-primary2);
   text-align: center;
-  line-height: auto;
-  margin-right: auto;
   border-radius: 5px;
   padding: 2rem;
 }
 
-.textbox h3{
+.center .contacts .textbox h3 {
   font-size: 2rem;
 }
 
-.center .form{
+.textbox h3 {
+  font-size: 2rem;
+}
+
+.center .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,10 +291,10 @@ footer a{
   margin: auto;
   border-radius: 6px;
   box-shadow: 1px 1px 3px gray;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.center .form h2{
+.center .form h2 {
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -319,7 +322,7 @@ input[type="tel"],
 input[type="subject"],
 textarea {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 55px;
   border: 1px solid var(--color-primary);
   font-size: 16px;
   width: 100%;
