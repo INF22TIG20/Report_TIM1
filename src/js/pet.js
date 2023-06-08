@@ -24,14 +24,14 @@ fetch('/src/xml/pets/pets.xml')
           </div>
           <div class="info-pet">
             <p>meet</p>
-            <h1><a href="${lname}.html">${name}</a></h1>
+            <h1><a href="/src/pages/pets/${lname}.html">${name}</a></h1>
             <h3>${type}</h3>
             <div class="location">
               <span class="material-symbols-outlined"> location_on </span>
               <h2>${location}</h2>
             </div>
             <div class="learn">
-              <h4><a href="${lname}.html">learn more</a></h4>
+              <h4><a href="/src/pages/pets/${lname}.html">learn more</a></h4>
               <span class="material-symbols-outlined">
                 arrow_forward_ios
               </span>

@@ -11,6 +11,7 @@
                         <sequence>
                             <element name="titulo" type="string"/>
                             <element name="descricao" type="string"/>
+                            <element name="item" type="string" maxOccurs="unbounded"/>
                         </sequence>
                     </complexType>
                 </element>
