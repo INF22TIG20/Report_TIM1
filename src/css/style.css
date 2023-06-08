@@ -10,15 +10,12 @@
 /* HOLY GRAIL */
 .container {
   display: grid;
-
   grid-template-areas:
     "header"
     "content"
     "footer";
-
   grid-template-rows: auto 1fr auto;
   grid-gap: 10px;
-
   height: 100vh;
 }
 
@@ -45,17 +42,12 @@ footer {
       "header"
       "content"
       "footer";
-
     grid-template-columns: 1fr;
-    grid-template-rows:
-      auto /* Header */
-      1fr /* Content */
-      auto; /* Footer */
+    grid-template-rows: auto 1fr auto;
   }
 }
 
 header {
-  /*grid-area: header;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,9 +63,25 @@ header .logo img {
 header nav button {
   margin: 1rem 2rem;
   color: var(--color-primary);
+}
+
+header nav a {
+  margin: 0rem; /* espaçamento entre os botões */
+  color: var(--color-white);
   border: none;
   background: none;
   font-size: 1.5rem;
+  text-decoration: none; /* sem sublinhado */
+  border-radius: 50px; /* Estilo  arredondado */
+  padding: 10px 20px; /* Espaçamento interno */
+  transition: background-color 0.3s ease-in-out;
+  display: inline-block;
+  background-color: var(--color-primary);
+}
+
+header nav a:hover {
+  background-color: var(--color-primary2);
+  color: var(--color-white);
 }
 
 /* MAIN CONTENT */
@@ -128,10 +136,12 @@ header nav button {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  text-decoration: none;
 }
 
 .info-pet {
   width: 75%;
+  text-decoration: none;
 }
 
 .info-pet p {
@@ -178,16 +188,75 @@ header nav button {
   margin-left: 0.5rem;
 }
 
+.info-pet a {
+  text-decoration: none;
+  color: black;
+}
+
 button:hover {
   cursor: pointer;
 }
 
-.button-box {
-  background: #f2f2f2;
-  padding: 5px;
-  border-radius: 15px;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Contact CONTENT */
+.textbox {
   display: inline-block;
-  margin-right: 10px;
-  justify-content: space-between;
-  text-align: left;
+  width: auto;
+  height: auto;
+  background-color: #ffbf69;
+  text-align: center;
+  line-height: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formbox {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="subject"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffbf69;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffbf69;
+}
+
+input[type="submit"] {
+  background-color: #ffbf69;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
 }
