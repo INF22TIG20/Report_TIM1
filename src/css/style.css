@@ -179,6 +179,7 @@ header nav a:hover {
 
 .info-pet a {
   text-decoration: none;
+  color: black;
 }
 
 button:hover {
