@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.example.com/ensinar"
+    xmlns:tns="http://www.example.com/ensinar"
+    elementFormDefault="qualified">
+    <element name="ensinar">
+        <complexType>
+            <sequence>
+                <element name="treino" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="titulo" type="string"/>
+                            <element name="descricao" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

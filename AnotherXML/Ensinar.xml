@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ensinar xmlns="http://www.example.com/ensinar"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.example.com/ensinar 
+                             ensinar.xsd">
+  <treino>
+    <titulo>Ensinar um patudo a sentar</titulo>
+    <descricao>
+      Ensinar um patudo a sentar é um dos comandos básicos de treinar. Siga estas etapas para ensinar o seu patudo:
+      1. Comece com o patudo em pé na sua frente.
+      2. Segure um biscoito próximo ao nariz do patudo.
+      3. Mova lentamente a mão com o biscoito para cima, acima do nariz do patudo.
+      4. Conforme o patudo acompanha o movimento do biscoito com os olhos, acabará por se sentar naturalmente.
+      5. Assim que o patudo estiver completamente sentado, elogie-o e dê o biscoito como recompensa.
+      6. Repita estas etapas regularmente até que o patudo aprenda a sentar apenas com o comando verbal.
+    </descricao>
+  </treino>
+  <treino>
+    <titulo>Ensinar o patudo a dar a pata</titulo>
+    <descricao>
+      Ensinar um patudo a dar a pata é um truque divertido. Siga estas etapas para ensinar o seu patudo a dar a pata:
+      1. Comece com o patudo sentado na sua frente.
+      2. Segure um biscoito na sua mão e mostre-o ao cão.
+      3. Lentamente, mova a mão com o biscoito em direção à pata dianteira do patudo.
+      4. Diga o comando "Dá a pata" enquanto toca levemente na pata do patudo.
+      5. Assim que o patudo levantar a pata, segure-a delicadamente e dê o biscoito como recompensa.
+      6. Repita estas etapas regularmente até que o patudo aprenda a dar a pata apenas com o comando verbal.
+    </descricao>
+  </treino>
+</ensinar>
