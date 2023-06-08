@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Pawsome</title>
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      $(function(){
+        $('head').load("/src/pages/static/head.html")
+      });
+    </script>
   </head>
    <body>
-  <div class="container">
-      <header>
-        <div class="logo">
-          <a href="/index.html"><img src="/src/img/ui/Pawsome_logo.png" alt="Pawsome Adoptions" /></a>
-        </div>
-        <nav>
-          <a href="/src/pages/nav/about.html">About us</a>
-          <a href="/src/pages/nav/contact.html">Contact us</a>
-        </nav>
-      </header>
+    <header>
+      <script>
+        $(function(){
+          $('header').load("/src/pages/static/header.html")
+        });
+      </script>
+    </header>
+    <div class="container">
       <main>
         <div class="center">
             <img src="src\img\ui\happy_dogs.jpg" alt="Happy dogs" />
@@ -91,4 +90,12 @@
             </form>
         </div>
       </main>
+        <footer>
+          <script>
+            $(function(){
+              $('footer').load("/src/pages/static/footer.html")
+            });
+          </script>
+        </footer>
+      </body>
 </html>

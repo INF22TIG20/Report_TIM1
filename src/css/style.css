@@ -147,6 +147,17 @@ header nav a:hover {
 .info-pet p {
   text-align: left;
   margin: 0;
+  align-items: center;
+}
+
+.info-pet h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.info-pet a{
+  text-decoration: none;
+  color: black;
 }
 
 .info-pet h3 {

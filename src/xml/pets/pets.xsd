@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://yournamespace.com"
+           xmlns="https://yournamespace.com"
+           elementFormDefault="qualified">
   <xs:element name="pets">
     <xs:complexType>
       <xs:sequence>
@@ -12,7 +15,7 @@
               <xs:element name="gender" type="xs:string"/>
               <xs:element name="dob" type="xs:string"/>
               <xs:element name="age" type="xs:string"/>
-              <xs:element name="size" type="xs:string"/>
+              <xs:element name="size" type="xs:string" minOccurs="0"/>
               <xs:element name="location" type="xs:string"/>
               <xs:element name="info" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
