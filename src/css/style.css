@@ -143,6 +143,12 @@ header nav button {
 .info-pet h1 {
   margin: 0;
   font-size: 4rem;
+  text-decoration: none;
+}
+
+.info-pet a{
+  text-decoration: none;
+  color: black;
 }
 
 .info-pet h3 {
