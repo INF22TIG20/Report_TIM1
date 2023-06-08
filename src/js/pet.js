@@ -1,4 +1,4 @@
-fetch('/src/xml/pets.xml')
+fetch('/src/xml/pets/pets.xml')
   .then(response => response.text())
   .then(data => {
     // Now 'data' is the XML file as a string
@@ -14,7 +14,7 @@ fetch('/src/xml/pets.xml')
       let name = pet.getElementsByTagName('name')[0].textContent;
       let type = pet.getElementsByTagName('type')[0].textContent;
       let location = pet.getElementsByTagName('location')[0].textContent;
-      let image = `src/img/pets/${lname}1.png`;
+      let image = `/src/img/pets/${lname}1.png`;
     
       // Create the HTML
       let html = `
