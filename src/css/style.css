@@ -193,3 +193,59 @@ footer {
   flex-wrap: wrap;
   text-align: center;
 }
+
+/* Contact CONTENT */
+.textbox {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: #ffbf69;
+  text-align: center;
+  line-height: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formbox {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="subject"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffbf69;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffbf69;
+}
+
+input[type="submit"] {
+  background-color: #ffbf69;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
