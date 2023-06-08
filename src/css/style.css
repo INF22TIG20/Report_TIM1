@@ -185,3 +185,11 @@ header nav a:hover {
 button:hover {
   cursor: pointer;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
