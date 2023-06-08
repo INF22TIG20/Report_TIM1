@@ -2,9 +2,17 @@
 :root {
   --color-primary: #ff9f1c;
   --color-primary2: #ffbf69;
-  --color-white: #fff;
   --color-secondary: #cbf3f0;
   --color-secondary2: #2ec4b6;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url("/src/img/ui/bg_pattern.jpg");
+  background-repeat: repeat;
+  background-size: 300px;
 }
 
 /* HOLY GRAIL */
@@ -20,20 +28,22 @@
 }
 
 header {
-  grid-area: header;
-  background-color: var(--color-white);
+  background-color: rgba(255, 255, 255, .7);
 }
 
 main {
   grid-area: content;
-  background-image: url("/src/img/ui/bg_pattern.jpg");
-  background-repeat: repeat;
-  background-size: 300px;
+  padding-bottom: 100px;
 }
 
 footer {
   grid-area: footer;
-  background-color: beige;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  
 }
 
 @media (max-width: 768px) {
@@ -60,19 +70,17 @@ header .logo img {
   margin: 1rem;
 }
 
-header nav button {
-  margin: 1rem 2rem;
-  color: var(--color-primary);
+header nav{
+  margin-right: 2rem;
 }
-
 header nav a {
-  margin: 0rem; /* espaçamento entre os botões */
-  color: var(--color-white);
+  margin: 0.5rem; /* espaçamento entre os botões */
+  color: white;
   border: none;
   background: none;
   font-size: 1.5rem;
   text-decoration: none; /* sem sublinhado */
-  border-radius: 50px; /* Estilo  arredondado */
+  border-radius: 40px; /* Estilo  arredondado */
   padding: 10px 20px; /* Espaçamento interno */
   transition: background-color 0.3s ease-in-out;
   display: inline-block;
@@ -81,7 +89,7 @@ header nav a {
 
 header nav a:hover {
   background-color: var(--color-primary2);
-  color: var(--color-white);
+  color: white;
 }
 
 /* MAIN CONTENT */
@@ -91,8 +99,11 @@ header nav a:hover {
   margin: 2rem auto;
   position: relative;
   width: 85%;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--color-primary);
+  box-shadow: 1px 1px 3px gray;
 }
 
 .slide-show img {
@@ -116,7 +127,7 @@ header nav a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--color-white);
+  background-color: white;
   border-radius: 3%;
   box-shadow: 1px 1px 3px gray;
 }
@@ -193,11 +204,7 @@ header nav a:hover {
   color: black;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
-footer {
+footer .footer-links{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,12 +212,16 @@ footer {
   text-align: center;
 }
 
+footer a{
+  margin: 0.4rem;
+}
+
 /* Contact CONTENT */
 .textbox {
   display: inline-block;
   width: auto;
   height: auto;
-  background-color: #ffbf69;
+  background-color: var(--color-primary2);
   text-align: center;
   line-height: auto;
   margin-right: auto;
@@ -242,15 +253,15 @@ input[type="subject"],
 textarea {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ffbf69;
+  border: 1px solid var(--color-primary);
   font-size: 16px;
   width: 100%;
   box-sizing: border-box;
-  background-color: #ffbf69;
+  background-color: var(--color-primary2);
 }
 
 input[type="submit"] {
-  background-color: #ffbf69;
+  background-color: var(--color-primary2);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
