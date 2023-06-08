@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pets>
+<pets xmlns="https://yournamespace.com"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://yournamespace.com pets.xsd">
   <pet>
     <lname>caramelo</lname>
     <name>Caramelo</name>
