@@ -337,3 +337,61 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* ABOUT US CONTENT */
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content img {
+  margin-right: 20px;
+}
+
+.mission-info {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.mission-info h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: -1rem;
+  margin-right: 2rem;
+}
+
+.vision-info h1,
+.history-info h1 {
+  font-size: 4rem;
+  margin-bottom: -1rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.mission-info p {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.vision-info p,
+.history-info p {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.bottomImage {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
