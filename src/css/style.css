@@ -458,6 +458,13 @@ input[type="submit"] {
   opacity: 1;
 }
 
+#adopt h1 {
+  font-size: 4rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .adopt-pet {
   display: flex;
   margin: auto;
@@ -465,13 +472,14 @@ input[type="submit"] {
 }
 
 .adopt-pet div {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 #adopt .adopt-story {
   width: 50vw;
   text-align: justify;
   margin: auto;
+  padding-bottom: 3rem;
 }
 
 .ask-share {
