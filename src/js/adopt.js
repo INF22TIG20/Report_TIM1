@@ -74,7 +74,7 @@ fetch('/src/xml/pets/pets.xml')
             <h1>Ask About <span>${name}</span></h1>
           </a>
         </div>
-        <div class="share">
+        <div id="share-button" class="share">
           <img src="/src/img/ui/share.png" alt="Share">
         </div>
       </div>

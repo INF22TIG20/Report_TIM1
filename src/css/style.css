@@ -509,5 +509,10 @@ input[type="submit"] {
   position: relative;
   left: -20px;
   box-shadow: 1px 1px 3px gray;
+  cursor: pointer;
 }
 
+.ask-share a {
+  text-decoration: none;
+  color: black;
+}
