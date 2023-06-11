@@ -252,9 +252,15 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin: 2rem auto;
   width: 80%;
+}
+.center .contacts th {
+  background-color: var(--color-primary2);
+}
+
+.center .contacts th, td {
+  border: 2px solid black;
 }
 
 .center .contacts a {
@@ -262,23 +268,6 @@ footer a {
   color: black;
   box-sizing: border-box;
   margin: 1rem;
-}
-
-.center .contacts .textbox {
-  width: 30%;
-  margin: 1rem;
-  background-color: var(--color-primary2);
-  text-align: center;
-  border-radius: 5px;
-  padding: 2rem;
-}
-
-.center .contacts .textbox h3 {
-  font-size: 2rem;
-}
-
-.textbox h3 {
-  font-size: 2rem;
 }
 
 .center .form {
