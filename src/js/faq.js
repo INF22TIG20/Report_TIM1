@@ -21,12 +21,11 @@ document.getElementById('faq').addEventListener('click', function() {
                 let pergunta = faqis[i].getElementsByTagName('pergunta')[0].textContent;
                 let resposta = faqis[i].getElementsByTagName('resposta')[0].textContent;
 
-                result += `<dt><span class="qa">Q.</span> ${pergunta}</dt><dd><span class="qa">A.</span> ${resposta}</dd>`;
+                result += `<dt class="faq-item"><span class="qa">Q.</span> ${pergunta}</dt><dd><span class="qa">A.</span> ${resposta}</dd>`;
             }
 
             resultDiv.innerHTML = `<dl>${result}</dl>`;
 
-            // Attach click event listener to each question
             let questions = resultDiv.getElementsByTagName('dt');
             for (let i = 0; i < questions.length; i++) {
                 questions[i].addEventListener('click', function() {
@@ -37,6 +36,10 @@ document.getElementById('faq').addEventListener('click', function() {
                         answer.style.display = 'none';
                     }
                 });
+
+                setTimeout(function() {
+                    questions[i].style.opacity = '1';
+                }, i * 1000); 
             }
         })
         .catch((error) => {
