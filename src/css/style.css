@@ -264,23 +264,6 @@ footer a {
   margin: 1rem;
 }
 
-.center .contacts .textbox {
-  width: 30%;
-  margin: 1rem;
-  background-color: var(--color-primary2);
-  text-align: center;
-  border-radius: 5px;
-  padding: 2rem;
-}
-
-.center .contacts .textbox h3 {
-  font-size: 2rem;
-}
-
-.textbox h3 {
-  font-size: 2rem;
-}
-
 .center .form {
   display: flex;
   flex-direction: column;
@@ -394,4 +377,33 @@ input[type="submit"] {
   position: relative;
   width: 100%;
   height: auto;
+}
+
+#faq:hover {
+  cursor: pointer;
+}
+
+#result dl, 
+#result dt, 
+#result dd {
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+
+#result dd {
+    display: none;
+}
+
+#result dl {
+  margin-bottom: 4rem;
+}
+
+#result span {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+#result dt {
+  font-weight: bold;
+  cursor: pointer;
 }

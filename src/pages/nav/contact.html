@@ -16,7 +16,6 @@
         });
       </script>
     </header>
-    <div class="container">
       <main>
         <div class="center">
           <img src="/src/img/ui/happy_dogs.jpg" alt="Happy dogs"/>
@@ -24,29 +23,34 @@
             <h1>TALK TO US</h1>
             <p>We're <strong>thrilled</strong> that you're interested in reaching out to us! <br>
             Whether you have questions, feedback, or just want to say hello, we'd love to hear from you. <br>
-            Our team is here to assist you in any way we can.'</p>
+            Our team is here to assist you in any way we can.</p>
           </div>
-          <div class="contacts">
-            <div class="textbox">
-              <h3>Call us</h3>
-              <p><a href="tel:910368553">(+351) 760 501 670</a></p>
-            </div>
-            <div class="textbox">
-              <h3>Email us</h3>
-              <p><a href="mailto:midas@associacaomidas.org">info@pawsome.pt</a></p>
-            </div>
-            <div class="textbox">
-              <h3>Visit us</h3>
-              <p><address>
-                Rua da Pinguela, S/N | 4460-792 Custoias Esposade, Matosinhos
-              </address></p>
-            </div>
-          </div>
+          <table class="contacts">
+            <tr>
+              <th>Call us</th>
+              <td><a href="tel:910368553">(+351) 760 501 670</a></td>
+            </tr>
+            <tr>
+              <th>Email us</th>
+              <td><a href="mailto:midas@associacaomidas.org">info@pawsome.pt</a></td>
+            </tr>
+            <tr>
+              <th>Visit us</th>
+              <td>
+                <address>
+                  Rua da Pinguela, S/N | 4460-792 Custoias Esposade, Matosinhos
+                </address>
+              </td>
+            </tr>
+          </table>          
           <div class="info">
               <p>If you have general inquiries, we encourage you to check out our <abbr title="Frequently Asked Questions">FAQ</abbr> section first. <br>
               We've compiled a list of frequently asked questions to provide you with quick answers and helpful information.<br>
               But don't worry, if you can't find what you're looking for, our friendly team is ready to provide personalized assistance.</p>
-              <h1>FAQ</h1>
+              <h1 id="faq">FAQ</h1>
+              <div id="result">
+                <!-- generate faq.js -->
+              </div>
               <p><em>Fell free to fill out the contact from below or reach out to us directly via email or phone.</em> <br>
                 We strive to respond promply and ensure that every interaction with our adoption website is a positive and helpful experience. <br>
                 We can't wait to connect with you and assist you on your journey to finding your perfect furry companion!</p>
@@ -107,5 +111,6 @@
             });
           </script>
         </footer>
+        <script src="/src/js/faq.js"></script>
       </body>
 </html>

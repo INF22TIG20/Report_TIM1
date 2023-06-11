@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faq xmlns="http://www.example.com/faq"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.example.com/faq 
+                             faq.xsd">
+    <faqi>
+        <pergunta>What type of pets are available for adoption?</pergunta>
+        <resposta>Our adoption website primarily provides a home to dogs and cats. The availability of pets varies, so we encourage you to check our website for the latest information.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>What is the process to adopt a pet?</pergunta>
+        <resposta>The process typically involves filling out an adoption form on our 'Contact' page, an interview to discuss your living situation and experience with pets, a meet-and-greet with the pet, and finally, the adoption itself. There may also be a home check.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>What is the cost to adopt a pet?</pergunta>
+        <resposta>Adoption fees vary depending on the type and age of the pet. These fees help cover the cost of the pet's care, including veterinary services like vaccinations, spay/neuter surgery, microchipping, and other necessary treatments.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>Are the pets health-checked and vaccinated?</pergunta>
+        <resposta>Yes, all pets are health-checked, vaccinated, dewormed, and spayed/neutered (if old enough) before they are available for adoption.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>Can I return a pet if it doesn't work out?</pergunta>
+        <resposta>We aim for all our pets to find their forever homes, but understand that sometimes things don't work out. If you are having difficulties, we offer support and advice. If necessary, we do accept returns within a specified period.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>Do you offer support after adoption?</pergunta>
+        <resposta>Absolutely! We provide post-adoption support and resources to help your new pet adjust to its new home. This includes behavior advice, veterinary referrals, and more.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>Can I adopt a pet as a gift for someone else?</pergunta>
+        <resposta>As we want to ensure a good match between the pet and its owner, the prospective owner needs to be involved in the adoption process. Therefore, we don't recommend adopting a pet as a surprise gift.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>How can I volunteer or donate to the adoption center?</pergunta>
+        <resposta>You can find information about volunteering and donation options on our website.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>I am not ready to adopt yet, can I foster a pet?</pergunta>
+        <resposta>Yes, we have a foster program where you can provide a temporary home for a pet. This can be a rewarding experience and also helps us care for more animals.</resposta>
+    </faqi>
+    <faqi>
+        <pergunta>How long does the adoption process take?</pergunta>
+        <resposta>The length of the adoption process can vary. It typically takes a few days to a week, but it can be longer depending on the pet and the potential adopter's situation.</resposta>
+    </faqi>
+</faq>
