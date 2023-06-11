@@ -249,7 +249,6 @@ footer a {
 }
 
 .center .contacts {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem auto;
@@ -261,6 +260,11 @@ footer a {
 
 .center .contacts th, td {
   border: 2px solid black;
+}
+
+.center .contacts tfoot td {
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 .center .contacts a {
