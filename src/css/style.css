@@ -63,14 +63,14 @@ header nav {
   margin-right: 2rem;
 }
 header nav a {
-  margin: 0.5rem; /* espaçamento entre os botões */
+  margin: 0.1rem; /* espaçamento entre os botões */
   color: white;
   border: none;
   background: none;
   font-size: 1.5rem;
   text-decoration: none; /* sem sublinhado */
   border-radius: 40px; /* Estilo  arredondado */
-  padding: 10px 20px; /* Espaçamento interno */
+  padding: 5px 10px; /* Espaçamento interno */
   transition: background-color 0.3s ease-in-out;
   display: inline-block;
   background-color: var(--color-primary);
@@ -527,5 +527,9 @@ input[type="submit"] {
   
   .content img {
     width: 95%;
+  }
+
+  .container p {
+    font-size: 1.5rem;
   }
 }
