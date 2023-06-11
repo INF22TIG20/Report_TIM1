@@ -18,7 +18,52 @@
         </script>
       </header>
       <main>
+        <section id="adopt">
+          <div class="adopt-pet">
+            <div id="pet-gallery">
+              <div class="big-image">
+                <img id="big" src="/src/img/pets/caramelo1.png">
+              </div>
+              <div class="small-images">
+                <img class="small active" src="/src/img/pets/caramelo1.png">
+                <img class="small" src="/src/img/pets/caramelo2.png">
+                <img class="small" src="/src/img/pets/caramelo3.png">
+              </div>
+            </div>
+            <div class="adopt-info">
+              <p>Hi! I am...</p>
+              <hr>
+              <h1>Caramelo</h1>
+              <h2>Dog | Male</h2>
+              <hr>
+              <h3>Location</h3>
+              <p>Santarém</p>
+              <h3>Date of Birth</h3>
+              <p>October 31th 2012</p>
+              <h3>Age</h3>
+              <p>10 years and 6 months</p>
+              <h3>Size</h3>
+              <p>Large (26-45kg)</p>
+            </div>
+          </div>
+          <div class="adopt-story">
+            <h1>My Story</h1>
+            <p>Caramelo is a large male dog, born around 2012. He was given away by his owners because they spent many hours outside and the dog barked a lot. Neighbors began to complain. It's important to note that they've had Caramel since he was a baby! Initially, they left the dog "temporarily" until they found a solution... as always happens, the "temporary" became "definitive". Caramel is a very shy dog. It takes time and patience for him to trust people. However, he is a sweet and playful dog, sociable with all other dogs. He knows how to walk on a leash. He will be delivered vaccinated, dewormed and sterilized.</p>
+          </div>
+        </section>
+        <div class="ask-share">
+          <div class="ask">
+            <a href="/src/pages/nav/contact.html#form">
+              <h1>Ask About <span>Caramelo</span></h1>
+            </a>
+          </div>
+          <div class="share">
+            <img src="/src/img/ui/share.png" alt="Share">
+          </div>
+        </div>
+        <div class="pets-container">
 
+        </div>
       </main>
 
       <footer>
@@ -29,7 +74,18 @@
         </script>
       </footer>
     </div>
-    <script src="/src/js/scripts.js"></script>
-    <script src="/src/js/pet.js"></script>
+    <script src="/src/js/adopt.js"></script>
   </body>
+  <script>
+    var bigImage = document.getElementById('big');
+    var smallImages = document.querySelectorAll('.small');
+    
+    smallImages.forEach(function(smallImage) {
+      smallImage.addEventListener('click', function() {
+        bigImage.src = this.src;
+        document.querySelector('.active').classList.remove('active');
+        this.classList.add('active');
+      });
+    });
+    </script>
 </html>

@@ -7,7 +7,7 @@
     <name>Caramelo</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>31 October 2012</dob>
+    <dob>October 31th 2012</dob>
     <age>10 years and 6 months</age>
     <size>Large (26-45kg)</size>
     <location>Santarém</location>
@@ -18,7 +18,7 @@
     <name>Escobar</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>09 July 2014</dob>
+    <dob>July 9th 2014</dob>
     <age>8 years and 9 months</age>
     <size>Medium (11-25kg)</size>
     <location>Lisboa</location>
@@ -31,7 +31,7 @@
     <name>Kika</name>
     <type>Dog</type>
     <gender>Female</gender>
-    <dob>31 January 2016</dob>
+    <dob>January 31th 2016</dob>
     <age>7 years 3 months</age>
     <size>Medium</size>
     <location>Porto</location>
@@ -42,7 +42,7 @@
     <name>Kinder</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>10 February 2015</dob>
+    <dob>February 10th 2015</dob>
     <age>8 years and 4 months</age>
     <size>Large (26-45kg)</size>
     <location>Coimbra</location>
@@ -56,7 +56,7 @@
     <name>Kitty</name>
     <type>Cat</type>
     <gender>Female</gender>
-    <dob>12 April 2017</dob>
+    <dob>April 12th 2017</dob>
     <age>6 years and 2 months</age>
     <location>Faro</location>
     <info>Kitty is a graceful cat with a soft coat and bright eyes. She was born in April 2017 and is fully enjoying her adult life. Kitty is a true feline lady, with a unique charm and a charming personality.</info>
@@ -69,7 +69,7 @@
     <name>Pepito</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>18 September 2015</dob>
+    <dob>September 18th 2015</dob>
     <age>7 years and 8 months</age>
     <size>Large (26-45kg)</size>
     <location>Aveiro</location>
@@ -83,7 +83,7 @@
     <name>Pincel</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>25 March 2018</dob>
+    <dob>March 25th 2018</dob>
     <age>5 years and 2 months</age>
     <size>Medium (11-25kg)</size>
     <location>Setúbal</location>
@@ -98,7 +98,7 @@
     <name>Scott</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>31 October 2012</dob>
+    <dob>October 31th 2012</dob>
     <age>10 years and 6 months</age>
     <size>Large (26-45kg)</size>
     <location>Évora</location>
@@ -109,7 +109,7 @@
     <name>Shadow</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>02 August 2016</dob>
+    <dob>August 2nd 2016</dob>
     <age>6 years and 10 months</age>
     <size>Large/Medium (26-45kg)</size>
     <location>Portalegre</location>
@@ -124,7 +124,7 @@
     <name>Topê</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>15 December 2019</dob>
+    <dob>December 15th 2019</dob>
     <age>3 years and 5 months</age>
     <size>Small (up to 10kg)</size>
     <location>Évora</location>
@@ -139,7 +139,7 @@
     <name>Tozé</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>8 July 2014</dob>
+    <dob>July 8th 2014</dob>
     <age>8 years and 11 months</age>
     <size>Large (26-45kg)</size>
     <location>Viseu</location>
@@ -154,7 +154,7 @@
     <name>Ziggy</name>
     <type>Dog</type>
     <gender>Male</gender>
-    <dob>14 February 2020</dob>
+    <dob>February 14th 2020</dob>
     <age>3 years and 3 months</age>
     <size>Large (26-45kg)</size>
     <location>Leiria</location>

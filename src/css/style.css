@@ -424,3 +424,82 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer;
 }
+
+.big-image img, .small-images img {
+  object-fit: cover; /* Or you could use 'contain' */
+  width: 100%;
+  height: 100%;
+}
+
+.big-image img {
+  width: 500px; /* Set to desired size */
+  height: 500px; /* Set to desired size */
+}
+
+.small-images img {
+  width: 150px;
+  height: 150px;
+}
+
+.small-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Adjust this value to increase or decrease the spacing */
+}
+
+.small {
+  width: calc((100% - 20px) / 3); /* Deduct the total gap space and divide equally */
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.small:hover,
+.small.active {
+  opacity: 1;
+}
+
+.adopt-pet {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.adopt-pet div {
+  margin: 3rem;
+}
+
+#adopt .adopt-story {
+  width: 50vw;
+  text-align: justify;
+  margin: auto;
+}
+
+.ask-share {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ask-share .ask {
+  background-color: var(--color-primary2);
+  border-radius: 10px;
+  padding: 2px 30px;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.ask-share .share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-secondary2);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding-right: 3px;
+  padding-bottom: 1px;
+  position: relative;
+  left: -20px;
+  box-shadow: 1px 1px 3px gray;
+}
+
