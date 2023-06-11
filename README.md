@@ -37,17 +37,17 @@ The technologies we used to do this work were:
 
 ## Gallery
 
-|                                                         |                                                         |
-| :-----------------------------------------------------: | :-----------------------------------------------------: |
-| ![An alternative description](doc/images/HomePage1.png) | ![An alternative description](doc/images/HomePage1.png) |
-|                        Homepage                         |                        Homepage                         |
-
-|                                                        |                                                        |
-| :----------------------------------------------------: | :----------------------------------------------------: |
-| ![An alternative description](doc/images/AboutUS1.png) | ![An alternative description](doc/images/AboutUS2.png) |
-|                        About Us                        |                        About Us                        |
-
 |                                                          |                                                          |
 | :------------------------------------------------------: | :------------------------------------------------------: |
-| ![An alternative description](doc/images/ContactUS1.png) | ![An alternative description](doc/images/ContactUS1.png) |
-|                        Contact us                        |                        Contact us                        |
+| ![An alternative description](docs/images/HomePage1.png) | ![An alternative description](docs/images/HomePage1.png) |
+|                         Homepage                         |                         Homepage                         |
+
+|                                                         |                                                         |
+| :-----------------------------------------------------: | :-----------------------------------------------------: |
+| ![An alternative description](docs/images/AboutUS1.png) | ![An alternative description](docs/images/AboutUS2.png) |
+|                        About Us                         |                        About Us                         |
+
+|                                                           |                                                           |
+| :-------------------------------------------------------: | :-------------------------------------------------------: |
+| ![An alternative description](docs/images/ContactUS1.png) | ![An alternative description](docs/images/ContactUS1.png) |
+|                        Contact us                         |                        Contact us                         |
