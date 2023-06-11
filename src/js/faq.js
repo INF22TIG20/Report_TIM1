@@ -39,7 +39,7 @@ document.getElementById('faq').addEventListener('click', function() {
 
                 setTimeout(function() {
                     questions[i].style.opacity = '1';
-                }, i * 1000); 
+                }, i * 200); 
             }
         })
         .catch((error) => {
