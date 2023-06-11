@@ -39,7 +39,7 @@ The technologies we used to do this work were:
 
 |                                                          |                                                          |
 | :------------------------------------------------------: | :------------------------------------------------------: |
-| ![An alternative description](docs/images/HomePage1.png) | ![An alternative description](docs/images/HomePage1.png) |
+| ![An alternative description](docs/images/HomePage1.png) | ![An alternative description](docs/images/HomePage2.png) |
 |                         Homepage                         |                         Homepage                         |
 
 |                                                         |                                                         |
@@ -49,5 +49,5 @@ The technologies we used to do this work were:
 
 |                                                           |                                                           |
 | :-------------------------------------------------------: | :-------------------------------------------------------: |
-| ![An alternative description](docs/images/ContactUS1.png) | ![An alternative description](docs/images/ContactUS1.png) |
+| ![An alternative description](docs/images/ContactUS1.png) | ![An alternative description](docs/images/ContactUS2.png) |
 |                        Contact us                         |                        Contact us                         |
