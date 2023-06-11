@@ -9,108 +9,110 @@
     </script>
   </head>
    <body>
-    <header>
-      <script>
-        $(function(){
-          $('header').load("/src/pages/static/header.html")
-        });
-      </script>
-    </header>
-      <main>
-        <div class="center">
-          <img src="/src/img/ui/happy_dogs.jpg" alt="Happy dogs"/>
-          <div class="info">
-            <h1>TALK TO US</h1>
-            <p>We're <strong>thrilled</strong> that you're interested in reaching out to us! <br>
-            Whether you have questions, feedback, or just want to say hello, we'd love to hear from you. <br>
-            Our team is here to assist you in any way we can.'</p>
+    <div class="container">
+      <header>
+        <script>
+          $(function(){
+            $('header').load("/src/pages/static/header.html")
+          });
+        </script>
+      </header>
+        <main>
+          <div class="center">
+            <img src="/src/img/ui/happy_dogs.jpg" alt="Happy dogs"/>
+            <div class="info">
+              <h1>TALK TO US</h1>
+              <p>We're <strong>thrilled</strong> that you're interested in reaching out to us! <br>
+              Whether you have questions, feedback, or just want to say hello, we'd love to hear from you. <br>
+              Our team is here to assist you in any way we can.'</p>
+            </div>
+            <table class="contacts">
+              <thead>
+                <th>Call us</th>
+                <th>Email us</th>
+                <th>Visit us</th>
+              </thead>
+              <tr>
+                <td><a href="tel:910368553">(+351) 760 501 670</a></td>
+                <td><a href="mailto:midas@associacaomidas.org">info@pawsome.pt</a></td>
+                <td><address>
+                  Rua da Pinguela, S/N <br>
+                  4460-792 Custoias Esposade, Matosinhos
+                </address></td>
+              </tr>
+              <tfoot>
+                <td colspan="3"><em>More info, <a href="#form" style="margin: 0; color: #ff9f1c;">click here</a></em></td>
+              </tfoot>
+            </table>                   
+            <div class="info">
+                <p>If you have general inquiries, we encourage you to check out our <abbr title="Frequently Asked Questions">FAQ</abbr> section first. <br>
+                We've compiled a list of frequently asked questions to provide you with quick answers and helpful information.<br>
+                But don't worry, if you can't find what you're looking for, our friendly team is ready to provide personalized assistance.</p>
+                <h1 id="faq">FAQ</h1>
+                <div id="result">
+                  <!-- generate faq.js -->
+                </div>
+                <p><em>Fell free to fill out the contact from below or reach out to us directly via email or phone.</em> <br>
+                  We strive to respond promply and ensure that every interaction with our adoption website is a positive and helpful experience. <br>
+                  We can't wait to connect with you and assist you on your journey to finding your perfect furry companion!</p>
+            </div>
+            <div class="form" id="form">
+              <h2>GENERAL INQUIRIES</h2>
+              <form>
+                <div class="formbox">
+                  <select id="generalissues" name="generalissues">
+                    <option value="">General Issues</option>
+                    <option value="Opção 1">Adopt an animal</option>
+                    <option value="Opção 2">I found a stray animal</option>
+                    <option value="Opção 3">I wanna donate</option>
+                  </select>
+                </div>
+                <br>
+                <div class="formbox">
+                  <label for="firstnome">First Name:</label>
+                  <input type="text" id="firstnome" name="firstnome" required>
+                </div>
+                <br/>
+                <div class="formbox">
+                  <label for="lastnome">Last Name:</label>
+                  <input type="text" id="lastname" name="lastname" required>
+                </div>
+                <br>
+                <div class="formbox">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div class="formbox">
+                  <label for="phonenumber">Phone Number:</label>
+                  <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{9,15}">
+                </div>
+                <br>
+                <div class="formbox">
+                  <label for="subject">Subject:</label>
+                  <input type="subject" id="subject" name="subject" required>
+                </div>
+                <br>
+                <div class="formbox">
+                  <label for="message">Message:</label>
+                  <textarea id="comment" name="message" required></textarea>
+                </div>
+                <br>
+                <div class="formbox">
+                  <input type="submit" value="Send Message">
+                </div>
+              </form>
+            </div>
           </div>
-          <table class="contacts">
-            <thead>
-              <th>Call us</th>
-              <th>Email us</th>
-              <th>Visit us</th>
-            </thead>
-            <tr>
-              <td><a href="tel:910368553">(+351) 760 501 670</a></td>
-              <td><a href="mailto:midas@associacaomidas.org">info@pawsome.pt</a></td>
-              <td><address>
-                Rua da Pinguela, S/N <br>
-                4460-792 Custoias Esposade, Matosinhos
-              </address></td>
-            </tr>
-            <tfoot>
-              <td colspan="3"><em>More info, <a href="#form" style="margin: 0; color: #ff9f1c;">click here</a></em></td>
-            </tfoot>
-          </table>                   
-          <div class="info">
-              <p>If you have general inquiries, we encourage you to check out our <abbr title="Frequently Asked Questions">FAQ</abbr> section first. <br>
-              We've compiled a list of frequently asked questions to provide you with quick answers and helpful information.<br>
-              But don't worry, if you can't find what you're looking for, our friendly team is ready to provide personalized assistance.</p>
-              <h1 id="faq">FAQ</h1>
-              <div id="result">
-                <!-- generate faq.js -->
-              </div>
-              <p><em>Fell free to fill out the contact from below or reach out to us directly via email or phone.</em> <br>
-                We strive to respond promply and ensure that every interaction with our adoption website is a positive and helpful experience. <br>
-                We can't wait to connect with you and assist you on your journey to finding your perfect furry companion!</p>
-          </div>
-          <div class="form" id="form">
-            <h2>GENERAL INQUIRIES</h2>
-            <form>
-              <div class="formbox">
-                <select id="generalissues" name="generalissues">
-                  <option value="">General Issues</option>
-                  <option value="Opção 1">Adopt an animal</option>
-                  <option value="Opção 2">I found a stray animal</option>
-                  <option value="Opção 3">I wanna donate</option>
-                </select>
-              </div>
-              <br>
-              <div class="formbox">
-                <label for="firstnome">First Name:</label>
-                <input type="text" id="firstnome" name="firstnome" required>
-              </div>
-              <br/>
-              <div class="formbox">
-                <label for="lastnome">Last Name:</label>
-                <input type="text" id="lastname" name="lastname" required>
-              </div>
-              <br>
-              <div class="formbox">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-              </div>
-              <br>
-              <div class="formbox">
-                <label for="phonenumber">Phone Number:</label>
-                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{9,15}">
-              </div>
-              <br>
-              <div class="formbox">
-                <label for="subject">Subject:</label>
-                <input type="subject" id="subject" name="subject" required>
-              </div>
-              <br>
-              <div class="formbox">
-                <label for="message">Message:</label>
-                <textarea id="comment" name="message" required></textarea>
-              </div>
-              <br>
-              <div class="formbox">
-                <input type="submit" value="Send Message">
-              </div>
-            </form>
-          </div>
+        </main>
+          <footer>
+            <script>
+              $(function(){
+                $('footer').load("/src/pages/static/footer.html")
+              });
+            </script>
+          </footer>
         </div>
-      </main>
-        <footer>
-          <script>
-            $(function(){
-              $('footer').load("/src/pages/static/footer.html")
-            });
-          </script>
-        </footer>
         <script src="/src/js/faq.js"></script>
       </body>
 </html>

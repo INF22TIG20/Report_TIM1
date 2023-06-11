@@ -221,12 +221,13 @@ footer a {
 
 .center img {
   margin-top: 3rem;
+  width: 100%;
 }
 .center {
   display: flexbox;
   justify-content: center;
   margin: auto;
-  width: 80%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding-bottom: 5rem;
@@ -243,7 +244,7 @@ footer a {
 
 .center .info p {
   font-size: 1.5rem;
-  width: 50%;
+  width: 90%;
   margin: auto;
   text-align: justify;
 }
@@ -278,7 +279,7 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 90%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: auto;
