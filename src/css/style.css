@@ -46,17 +46,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-@media (max-width: 768px) {
-  .container {
-    grid-template-areas:
-      "header"
-      "content"
-      "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-  }
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -74,14 +63,14 @@ header nav {
   margin-right: 2rem;
 }
 header nav a {
-  margin: 0.5rem; /* espaçamento entre os botões */
+  margin: 0.1rem; /* espaçamento entre os botões */
   color: white;
   border: none;
   background: none;
   font-size: 1.5rem;
   text-decoration: none; /* sem sublinhado */
   border-radius: 40px; /* Estilo  arredondado */
-  padding: 10px 20px; /* Espaçamento interno */
+  padding: 5px 10px; /* Espaçamento interno */
   transition: background-color 0.3s ease-in-out;
   display: inline-block;
   background-color: var(--color-primary);
@@ -221,12 +210,13 @@ footer a {
 
 .center img {
   margin-top: 3rem;
+  width: 80%;
 }
 .center {
   display: flexbox;
   justify-content: center;
   margin: auto;
-  width: 80%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding-bottom: 5rem;
@@ -243,7 +233,7 @@ footer a {
 
 .center .info p {
   font-size: 1.5rem;
-  width: 50%;
+  width: 90%;
   margin: auto;
   text-align: justify;
 }
@@ -278,7 +268,7 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 90%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: auto;
@@ -334,8 +324,8 @@ input[type="submit"] {
 /* ABOUT US CONTENT */
 
 .content {
-  position: relative;
   display: flex;
+  width: 95%;
   align-items: center;
   justify-content: center;
   margin-left: 1rem;
@@ -343,6 +333,7 @@ input[type="submit"] {
 }
 
 .content img {
+  width: 80%;
   margin-right: 20px;
 }
 
@@ -417,6 +408,8 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* ADOPT A PET */
 
 .big-image img, .small-images img {
   object-fit: cover; /* Or you could use 'contain' */
@@ -513,4 +506,30 @@ input[type="submit"] {
 .faq-item {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content img {
+    width: 95%;
+  }
+
+  .container p {
+    font-size: 1.5rem;
+  }
 }
