@@ -532,4 +532,39 @@ input[type="submit"] {
   .container p {
     font-size: 1.5rem;
   }
+
+  #adopt .adopt-pet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  .big-image img, .small-images img {
+    object-fit: cover; /* Or you could use 'contain' */
+    width: 95%;
+    height: 95%;
+  }
+  
+  .big-image img {
+    width: 350px; /* Set to desired size */
+    height: 350px; /* Set to desired size */
+  }
+  
+  .small-images img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .small-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Adjust this value to increase or decrease the spacing */
+  }
+
+  #adopt .adopt-story {
+    width: 90%;
+  }
 }
