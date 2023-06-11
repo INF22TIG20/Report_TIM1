@@ -264,6 +264,23 @@ footer a {
   margin: 1rem;
 }
 
+.center .contacts .textbox {
+  width: 30%;
+  margin: 1rem;
+  background-color: var(--color-primary2);
+  text-align: center;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.center .contacts .textbox h3 {
+  font-size: 2rem;
+}
+
+.textbox h3 {
+  font-size: 2rem;
+}
+
 .center .form {
   display: flex;
   flex-direction: column;
