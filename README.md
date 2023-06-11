@@ -5,7 +5,7 @@ Repository to host the project developed for Tecnologias da Internet, a fisrt ye
 - [@André Gomes](https://github.com/aasfg)
 - [@Cátia Antunes](https://github.com/CatiaAntunes)
 - [@Gonçalo Sousa](https://github.com/MrcWithAMouth)
-- Repository [@inf-21-ti-g20](https://github.com/INF22TIG20/Report_TIM1)
+- Repository [@inf-22-TI-G20](https://github.com/INF22TIG20/Report_TIM1)
 
 # PAWSOME - Adopt a best friend
 
@@ -29,11 +29,31 @@ The technologies we used to do this work were:
 - Javascript
 - Jquery
 
-## Our main pages
+### Our main pages
 
 - Home Page (https://inf22tig20.netlify.app/index.html)
 - About us (https://inf22tig20.netlify.app/src/pages/nav/about.html)
 - Contact us (https://inf22tig20.netlify.app/src/pages/nav/contact.html)
+
+### Frameworks and Libraries
+
+No library was used
+
+### Project presentation
+
+- Chapter 1: [Project presentation](docs/chapter1.md)
+
+### User Interface
+
+- Chapter 2: [User Interface Prototype and Sitemap](docs/chapter2.md)
+
+### Product
+
+- Chapter 3: [Product](docs/chapter3.md)
+
+### Presentation
+
+- Chapter 4: [Presentation](docs/chapter4.md)
 
 ## Gallery
 
