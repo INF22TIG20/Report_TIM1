@@ -6,12 +6,12 @@ The website was designed under the "Mobile first" rule, the predominant colors o
 
 |                                                |                                                  |
 | :--------------------------------------------: | :----------------------------------------------: |
-| ![Home](docs/UserInterface/wireframe_home.png) | ![Adopt](docs/UserInterface/wireframe_adopt.png) |
+| ![Home](/docs/UserInterface/wireframe_home.png) | ![Adopt](/docs/UserInterface/wireframe_adopt.png) |
 |                                                |                                                  |
 
 |                                                         |                                                       |
 | :-----------------------------------------------------: | :---------------------------------------------------: |
-| ![About Us ](docs/UserInterface/wireframe_about_us.png) | ![Contact ](docs/UserInterface/wireframe_contact.png) |
+| ![About Us ](/docs/UserInterface/wireframe_about_us.png) | ![Contact ](/docs/UserInterface/wireframe_contact.png) |
 |                                                         |                                                       |
 
 ### Sitemap
