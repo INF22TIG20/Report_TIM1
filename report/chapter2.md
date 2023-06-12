@@ -20,5 +20,5 @@ Our website has 4 pages and 12 variations of the adopt page. Through the header 
 
 ![sitemap](docs/UserInterface/sitemap.png)
 
-| [< Previous](c1.md) | [^ Main](../../../) | [Next >](c3.md) |
+| [< Previous](chapter1.md) | [^ Main](../../../) | [Next >](chapter3.md) |
 | :------------------ | :-----------------: | --------------: |

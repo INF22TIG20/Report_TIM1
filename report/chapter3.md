@@ -43,5 +43,5 @@ All files passed W3C validation
 
 - POR FAZER
 
-| [< Previous](c2.md) | [^ Main](../../../) | [Next >](c4.md) |
+| [< Previous](chapter2.md) | [^ Main](../../../) | [Next >](chapter4.md) |
 | :------------------ | :-----------------: | --------------: |

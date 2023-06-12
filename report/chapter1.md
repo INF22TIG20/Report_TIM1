@@ -13,5 +13,5 @@ Headers and footers are present on all pages.
 - Cátia Antunes [@Cátia Antunes](https://github.com/CatiaAntunes)
 - Gonçalo Sousa [@Gonçalo Sousa](https://github.com/MrcWithAMouth)
 
-| [< Previous](c1.md) | [^ Main](../../../) | [Next >](c3.md) |
+| [< Previous](chapter1.md) | [^ Main](../../../) | [Next >](chapter3.md) |
 | :------------------ | :-----------------: | --------------: |
