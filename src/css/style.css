@@ -659,7 +659,7 @@ article h1:hover::after {
 .float-right {
   float: right;
   padding: 10px 20px;
-  background-color: var(--color-secondary2); /* Green */
+  background-color: var(--color-secondary2);
   color: white;
   border: none;
   cursor: pointer;
@@ -671,6 +671,3 @@ article h1:hover::after {
   background-color: var(--color-secondary);
   color: black;
 }
-
-
-
