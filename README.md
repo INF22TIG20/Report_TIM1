@@ -41,19 +41,19 @@ No library was used
 
 ### Project presentation
 
-- Chapter 1: [Project presentation](chapter1.md)
+- Chapter 1: [Project presentation](report/chapter1.md)
 
 ### User Interface
 
-- Chapter 2: [User Interface Prototype and Sitemap](chapter2.md)
+- Chapter 2: [User Interface Prototype and Sitemap](report/chapter2.md)
 
 ### Product
 
-- Chapter 3: [Product](chapter3.md)
+- Chapter 3: [Product](report/chapter3.md)
 
 ### Presentation
 
-- Chapter 4: [Presentation](chapter4.md)
+- Chapter 4: [Presentation](report/chapter4.md)
 
 ## Gallery
 
