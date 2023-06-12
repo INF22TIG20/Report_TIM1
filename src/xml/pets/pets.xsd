@@ -15,7 +15,7 @@
               <xs:element name="gender" type="xs:string"/>
               <xs:element name="dob" type="xs:string"/>
               <xs:element name="age" type="xs:string"/>
-              <xs:element name="size" type="xs:string" minOccurs="0"/>
+              <xs:element name="size" type="xs:string"/>
               <xs:element name="location" type="xs:string"/>
               <xs:element name="info" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
             </xs:sequence>
