@@ -68,7 +68,7 @@ header nav a {
   border: none;
   background: none;
   font-size: 1.5rem;
-  text-decoration: none; /* sem sublinhado */
+  text-decoration: none;
   border-radius: 40px; /* Estilo  arredondado */
   padding: 5px 10px; /* Espaçamento interno */
   transition: background-color 0.3s ease-in-out;
@@ -306,6 +306,10 @@ textarea {
   width: 100%;
   box-sizing: border-box;
   background-color: var(--color-primary2);
+}
+
+input[required] {
+  background-color: var(--color-primary);
 }
 
 .submit {
