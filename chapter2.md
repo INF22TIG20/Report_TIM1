@@ -16,4 +16,9 @@ The website was designed under the "Mobile first" rule, the predominant colors o
 
 ### Sitemap
 
+Our website has 4 pages and 12 variations of the adopt page. Through the header you can access "About us" and "Contact us", while to access adopt we have to click on the name or "learn more" of an animal
+
 ![sitemap](docs/UserInterface/sitemap.png)
+
+| [< Previous](c1.md) | [^ Main](../../../) | [Next >](c3.md) |
+| :------------------ | :-----------------: | --------------: |
