@@ -17,7 +17,7 @@ Headers and footers are present on all pages.
 ## Repository organization
 
 - Source code is in the [src folder](src/). Which includes a [js folder](src/js), a [images folder](src/images) and a [css folder](src/css).
-- Wireframes is in [User Interfaces](docs/User%20Interface/)
+- Wireframes is in [User Interfaces](docs/UserInterface/)
 
 ## Technologies
 
