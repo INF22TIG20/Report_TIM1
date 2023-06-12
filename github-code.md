@@ -43,5 +43,5 @@ https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822
 Replace an element with an image
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L23-L25
 Media Queries
-- Browser https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L488-L492
-- Screens < 768px https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L571-L578
+- Browser https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L490-L492
+- Screens < 768px https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L567-L574
