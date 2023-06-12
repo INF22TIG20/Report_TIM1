@@ -71,3 +71,9 @@ No library was used
 | :-------------------------------------------------------: | :-------------------------------------------------------: |
 | ![An alternative description](docs/images/ContactUS1.png) | ![An alternative description](docs/images/ContactUS2.png) |
 |                        Contact us                         |                        Contact us                         |
+
+## Team
+
+- André Gomes, a040227@ismai.pt [@André Gomes](https://github.com/aasfg)
+- Cátia Antunes, a040737@ismai.pt [@Cátia Antunes](https://github.com/CatiaAntunes)
+- Gonçalo Sousa , a042045@ismai.pt [@Gonçalo Sousa](https://github.com/MrcWithAMouth)
