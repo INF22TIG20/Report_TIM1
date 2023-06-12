@@ -213,7 +213,6 @@ footer a {
   width: 60%;
 }
 .center {
-  display: flexbox;
   justify-content: center;
   margin: auto;
   width: 100%;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Contact Us</title>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script>
       $(function(){
@@ -19,7 +20,7 @@
       </header>
         <main>
           <div class="center">
-            <img src="/src/img/ui/happy_dogs.jpg" alt="Happy dogs"/>
+            <img src="/src/img/ui/happy_dogs.jpg" alt="Happy dogs">
             <section class="info">
               <h1>TALK TO US</h1>
               <p>We're <strong>thrilled</strong> that you're interested in reaching out to us! <br>
@@ -28,9 +29,11 @@
               </section>
             <table class="contacts">
               <thead>
-                <th>Call us</th>
-                <th>Email us</th>
-                <th>Visit us</th>
+                <tr>
+                  <th>Call us</th>
+                  <th>Email us</th>
+                  <th>Visit us</th>
+                </tr>
               </thead>
               <tr>
                 <td><a href="tel:910368553">(+351) 760 501 670</a></td>
@@ -41,7 +44,9 @@
                 </address></td>
               </tr>
               <tfoot>
-                <td colspan="3"><em>More info, <a href="#form" style="margin: 0; color: #ff9f1c;">click here</a></em></td>
+                <tr>
+                  <td colspan="3"><em>More info, <a href="#form" style="margin: 0; color: #ff9f1c;">click here</a></em></td>
+                </tr>
               </tfoot>
             </table>                   
             <section class="info">
@@ -72,9 +77,9 @@
                   <label for="firstnome">First Name:</label>
                   <input class="input" type="text" id="firstnome" name="firstnome" required>
                 </div>
-                <br/>
+                <br>
                 <div class="formbox">
-                  <label for="lastnome">Last Name:</label>
+                  <label for="lastname">Last Name:</label>
                   <input class="input" type="text" id="lastname" name="lastname" required>
                 </div>
                 <br>
@@ -90,11 +95,11 @@
                 <br>
                 <div class="formbox">
                   <label for="subject">Subject:</label>
-                  <input class="input" type="subject" id="subject" name="subject" required>
+                  <input class="input" type="text" id="subject" name="subject" required>
                 </div>
                 <br>
                 <div class="formbox">
-                  <label for="message">Message:</label>
+                  <label for="comment">Message:</label>
                   <textarea class="input" id="comment" name="message" required></textarea>
                 </div>
                 <br>
