@@ -81,7 +81,7 @@ header nav a:hover {
   color: white;
 }
 
-/* MAIN CONTENT */
+/* INDEX.HTML */
 
 .slide-show {
   justify-items: center;
@@ -206,14 +206,13 @@ footer a {
   margin: 0.4rem;
 }
 
-/* Contact CONTENT */
+/* CONTACT.HTML */
 
 .center img {
   margin-top: 3rem;
-  width: 80%;
+  width: 60%;
 }
 .center {
-  display: flexbox;
   justify-content: center;
   margin: auto;
   width: 100%;
@@ -268,7 +267,7 @@ footer a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 50%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: auto;
@@ -285,7 +284,7 @@ footer a {
 form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
 }
 
 .formbox {
@@ -298,11 +297,7 @@ label {
   margin-bottom: 5px;
 }
 
-select,
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="subject"],
+.input,
 textarea {
   padding: 10px;
   border-radius: 55px;
@@ -313,7 +308,7 @@ textarea {
   background-color: var(--color-primary2);
 }
 
-input[type="submit"] {
+.submit {
   background-color: var(--color-primary2);
   padding: 10px 20px;
   border: none;
@@ -321,7 +316,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* ABOUT US CONTENT */
+/* ABOUT.HTML */
 
 .content {
   display: flex;
@@ -409,7 +404,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* ADOPT A PET */
+/* ADOPT A PET PAGES */
 
 .big-image img, .small-images img {
   object-fit: cover; /* Or you could use 'contain' */
@@ -508,6 +503,7 @@ input[type="submit"] {
   transition: opacity 0.5s ease-in-out;
 }
 
+/* MEDIA QUERIES -- para diferentes tamanhos de ecrã*/
 @media (max-width: 768px) {
   .container {
     grid-template-areas:
@@ -531,5 +527,60 @@ input[type="submit"] {
 
   .container p {
     font-size: 1.5rem;
+  }
+
+  #adopt .adopt-pet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  .big-image img, .small-images img {
+    object-fit: cover; /* Or you could use 'contain' */
+    width: 95%;
+    height: 95%;
+  }
+  
+  .big-image img {
+    width: 350px; /* Set to desired size */
+    height: 350px; /* Set to desired size */
+  }
+  
+  .small-images img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .small-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Adjust this value to increase or decrease the spacing */
+  }
+
+  #adopt .adopt-story {
+    width: 90%;
+  }
+
+  .center .form{
+    width: 90%;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  form .input {
+    border-radius: 5px;
+  }
+
+  .center img {
+    width: 100%;
+  }
+
+  .center h1 {
+    font-size: 4rem;
   }
 }
