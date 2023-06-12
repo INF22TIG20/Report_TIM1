@@ -15,8 +15,8 @@ Simple selectors
 - attribute https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L311-L313
 
 Other selectors
-- pseudo-elements https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L447-L456
-- combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L428-L431
+- pseudo-elements https://github.com/INF22TIG20/Report_TIM1/blob/354ec681a83d130275e3d1b37f3eeda28211e8d0/src/css/style.css#L447-L456
+- combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/354ec681a83d130275e3d1b37f3eeda28211e8d0/src/css/style.css#L428-L431
 
 Text and Font properties
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L9-L11
@@ -27,7 +27,7 @@ https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L32
 
 List Styling
-https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L428-L431
+https://github.com/INF22TIG20/Report_TIM1/blob/354ec681a83d130275e3d1b37f3eeda28211e8d0/src/css/style.css#L428-L431
 
 The Four Box formatting elements of HTML elements
 - content https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L455-L456
