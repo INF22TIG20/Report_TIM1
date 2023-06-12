@@ -74,6 +74,6 @@ No library was used
 
 ## Team
 
-- André Gomes, a040227@ismai.pt [@André Gomes](https://github.com/aasfg)
-- Cátia Antunes, a040737@ismai.pt [@Cátia Antunes](https://github.com/CatiaAntunes)
-- Gonçalo Sousa , a042045@ismai.pt [@Gonçalo Sousa](https://github.com/MrcWithAMouth)
+- André Gomes, a040227@umaia.pt [@André Gomes](https://github.com/aasfg)
+- Cátia Antunes, a040737@umaia.pt [@Cátia Antunes](https://github.com/CatiaAntunes)
+- Gonçalo Sousa , a042045@umaia.pt [@Gonçalo Sousa](https://github.com/MrcWithAMouth)
