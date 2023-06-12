@@ -52,7 +52,6 @@
         </p>
       </section>
       <div class="content">
-        
         <section class="history-info">
           <h1>OUR HISTORY</h1>
           <p>
@@ -71,6 +70,14 @@
         </section>
           <img class="bottomImage" src="/src/img/pets/ziggy1.png" alt="Slide Image">
       </div>
+      <article>
+        <h1 onclick="toggleDisplay()">For your curiosity!</h1>
+        <div class="teach">
+          <p>here are two tricks that our portuguese instructor Manuel has for you</p>
+          <div id="teach-list">
+          </div>
+        </div>
+      </article>
       <footer>
         <script>
           $(function () {
@@ -79,5 +86,16 @@
         </script>
       </footer>
     </div>
+    <script src="/src/js/teach.js"></script>
+    <script>
+      function toggleDisplay() {
+      let teachDiv = document.querySelector('.teach');
+      if (teachDiv.style.display === "none") {
+        teachDiv.style.display = "flex";
+      } else {
+        teachDiv.style.display = "none";
+      }
+    }
+    </script>
   </body>
 </html>
