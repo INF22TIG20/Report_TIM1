@@ -15,8 +15,8 @@ Simple selectors
 - attribute https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L311-L313
 
 Other selectors
-- pseudo-elements https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L442-L460
-- combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L428-L431
+- pseudo-elements https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L447-L456
+- combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L428-L431
 
 Text and Font properties
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L9-L11
@@ -27,23 +27,23 @@ https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L32
 
 List Styling
-https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L429-L431
+https://github.com/INF22TIG20/Report_TIM1/blob/main/src/css/style.css#L428-L431
 
 The Four Box formatting elements of HTML elements
 - content https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L455-L456
-- padding https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L515
+- padding https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L511
 - border https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L251
 - margin https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L263
 
 Position and Floating
-- Position https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L378
+- Position https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L374
 - Floating https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L659-L668
 - Both combined https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L643-L652
 
 Hide an Element
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L74
-https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L413
-https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L109
+https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L409
+https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#LL109C1-L117C8
 
 Table formatting
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L251
@@ -52,5 +52,5 @@ Replace an element with an image
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L23-L25
 
 Media Queries
-- Browser https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L490-L492
+- Browser https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L484-L488
 - Screens < 768px https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L567-L574
