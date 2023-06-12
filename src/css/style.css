@@ -325,6 +325,7 @@ textarea {
   justify-content: center;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-bottom: 3rem;
 }
 
 .content img {
@@ -401,6 +402,40 @@ textarea {
 
 #result dt {
   font-weight: bold;
+  cursor: pointer;
+}
+
+.teach {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.teach h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.teach p {
+  margin-top: 0;
+}
+
+#teach-list ul > li{
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
+#teach-list {
+  font-size: 1.5rem;
+}
+
+article {
+  padding-bottom: 10rem;
+  margin: auto;
+}
+
+article h1 {
   cursor: pointer;
 }
 
