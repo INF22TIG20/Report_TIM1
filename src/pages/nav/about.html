@@ -71,10 +71,30 @@
           <img class="bottomImage" src="/src/img/pets/ziggy1.png" alt="Slide Image">
       </div>
       <article>
-        <h1 onclick="toggleDisplay()">For your curiosity!</h1>
+        <h1 onclick="toggleDisplay()">We also teach some tricks!</h1>
         <div class="teach">
           <p>here are two tricks that our portuguese instructor Manuel has for you</p>
           <div id="teach-list">
+            <ul>
+              <li>Teaching a pet how to seat</li>
+              <ol>
+                <li>Start with your pet standing in front of you.</li>
+                <li>Hold a treat close to the pet's nose.</li>
+                <li>Slowly move your hand with the treat upwards, over the pet's nose.</li>
+                <li>As the pet follows the movement of the treat with its eyes, it will naturally end up sitting.</li>
+                <li>Once the pet is fully seated, praise it and give the treat as a reward.</li>
+                <li>Repeat these steps regularly until the pet learns to sit with just the verbal command.</li>
+              </ol>
+              <li>Teaching the pet to give its paw</li>
+              <ol>
+                <li>Start with the pet sitting in front of you.</li>
+                <li>Hold a treat in your hand and show it to the dog.</li>
+                <li>Slowly move your hand with the treat towards the pet's front paw.</li>
+                <li>Say the command "Give paw" while lightly touching the pet's paw.</li>
+                <li>Once the pet lifts its paw, gently hold it and give the treat as a reward.</li>
+                <li>Repeat these steps regularly until the pet learns to give its paw with just the verbal command.</li>
+              </ol>
+            </ul>
           </div>
         </div>
       </article>
@@ -86,16 +106,15 @@
         </script>
       </footer>
     </div>
-    <script src="/src/js/teach.js"></script>
     <script>
       function toggleDisplay() {
-      let teachDiv = document.querySelector('.teach');
-      if (teachDiv.style.display === "none") {
-        teachDiv.style.display = "flex";
-      } else {
-        teachDiv.style.display = "none";
+        let teachDiv = document.querySelector('.teach');
+        if (teachDiv.style.display === "none") {
+          teachDiv.style.display = "flex";
+        } else {
+          teachDiv.style.display = "none";
+        }
       }
-    }
     </script>
   </body>
 </html>
