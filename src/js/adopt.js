@@ -64,6 +64,7 @@ fetch('/src/xml/pets/pets.xml')
           </div>
         </div>
         <div class="adopt-story">
+          <button class="float-right">Adopt me!</button>
           <h1>My Story</h1>
           <p>${info}</p>
         </div>

@@ -15,7 +15,7 @@ Simple selectors
 - attribute https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L311-L313
 
 Other selectors
-- pseudo-elements [EM FALTA]
+- pseudo-elements https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L442-L460
 - combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L428-L431
 
 Text and Font properties
@@ -37,8 +37,8 @@ The Four Box formatting elements of HTML elements
 
 Position and Floating
 - Position https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L378
-- Floating [EM FALTA]
-- Both combined [EM FALTA]
+- Floating https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L659-L668
+- Both combined https://github.com/INF22TIG20/Report_TIM1/blob/aa69b7ac2dd4ffffd4cbfeb88d4fd6875535cc9b/src/css/style.css#L643-L652
 
 Hide an Element
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L74

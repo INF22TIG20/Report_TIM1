@@ -440,7 +440,23 @@ article {
 }
 
 article h1 {
+  position: relative;
   cursor: pointer;
+}
+
+article h1::after {
+  content: ''; 
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 0; 
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in-out; 
+}
+
+article h1:hover::after {
+  width: 100%; 
 }
 
 /* ADOPT A PET PAGES */
@@ -623,3 +639,38 @@ article h1 {
     font-size: 4rem;
   }
 }
+
+#backToTop {
+  position: fixed;
+  bottom: 70px; 
+  right: 20px; 
+  float: right;
+  background-color: var(--color-secondary); 
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backToTop a {
+  text-decoration: none;
+  color: #2ec4b6;
+}
+
+.float-right {
+  float: right;
+  padding: 10px 20px;
+  background-color: var(--color-secondary2); /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.float-right:hover {
+  background-color: var(--color-secondary);
+  color: black;
+}
+
+
+
