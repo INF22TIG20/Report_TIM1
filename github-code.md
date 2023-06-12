@@ -13,9 +13,11 @@ Simple selectors
 - class https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L490-L492
 - pseudo-class https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L192-L195
 - attribute https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L311-L313
+
 Other selectors
 - pseudo-elements [EM FALTA]
 - combinator selectors https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L428-L431
+
 Text and Font properties
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L9-L11
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L70-L71
@@ -23,25 +25,32 @@ https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822
 Background Image and Color
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L14
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L32
+
 List Styling
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L429-L431
+
 The Four Box formatting elements of HTML elements
 - content https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L455-L456
 - padding https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L515
 - border https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L251
 - margin https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L263
+
 Position and Floating
 - Position https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L378
 - Floating [EM FALTA]
 - Both combined [EM FALTA]
+
 Hide an Element
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L74
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L413
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L109
+
 Table formatting
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L251
+
 Replace an element with an image
 https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/pages/nav/about.html#L23-L25
+
 Media Queries
 - Browser https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L490-L492
 - Screens < 768px https://github.com/INF22TIG20/Report_TIM1/blob/51b2b767baedfce5dcfd128fae33c9822d0cb848/src/css/style.css#L567-L574
