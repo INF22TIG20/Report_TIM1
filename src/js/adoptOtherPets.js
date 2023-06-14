@@ -1,3 +1,4 @@
+// Fetch XML data
 fetch('/src/xml/pets/pets.xml')
   .then(response => response.text())
   .then(data => {
@@ -14,11 +15,11 @@ fetch('/src/xml/pets/pets.xml')
     // Filter out the current pet
     pets = pets.filter(pet => pet.getElementsByTagName('lname')[0].textContent !== currentPet);
 
-    // Generate 4 random pets
+    // Generate 3 random pets
     for(let i = 0; i < 3; i++) {
       let randomIndex = Math.floor(Math.random() * pets.length);
       selectedPets.push(pets[randomIndex]);
-      pets.splice(randomIndex, 1);  // remove selected pet from the pets array
+      pets.splice(randomIndex, 1);
     }
 
     // Generate the HTML for each selected pet

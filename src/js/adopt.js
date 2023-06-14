@@ -1,5 +1,3 @@
-// GeneratePetInfo.js
-
 // Get the pet's name from the URL
 let pathArray = window.location.pathname.split('/');
 let currentPetName = pathArray[pathArray.length - 1].replace('.html', '');
@@ -84,9 +82,5 @@ fetch('/src/xml/pets/pets.xml')
       </div>
     `;
 
-    // Get a reference to the main element
-    let mainElement = document.querySelector('main');
-
-    // Add the generated HTML to the main element
-    mainElement.innerHTML += html;
+    document.querySelector('main').innerHTML += html;
   });

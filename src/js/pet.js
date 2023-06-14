@@ -40,7 +40,6 @@ fetch('/src/xml/pets/pets.xml')
         </div>
       `;
     
-      // Add the HTML to your container
       document.querySelector('.pets-container').innerHTML += html;
     }
   });
