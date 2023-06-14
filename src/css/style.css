@@ -664,6 +664,7 @@ article h1:hover::after {
   padding: 20px;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 1;
 }
 
 #backToTop a {
