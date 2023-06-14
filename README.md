@@ -72,6 +72,11 @@ No library was used
 | ![An alternative description](docs/images/ContactUS1.png) | ![An alternative description](docs/images/ContactUS2.png) |
 |                        Contact us                         |                        Contact us                         |
 
+|                                                          |                                                          |
+| :------------------------------------------------------: | :------------------------------------------------------: |
+| ![An alternative description](docs/images/gal_adop1.png) | ![An alternative description](docs/images/gal_adop2.png) |
+|                        Contact us                        |                        Contact us                        |
+
 ## Team
 
 - André Gomes, a040227@umaia.pt [@André Gomes](https://github.com/aasfg)
