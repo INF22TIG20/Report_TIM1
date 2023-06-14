@@ -75,7 +75,7 @@ No library was used
 |                                                          |                                                          |
 | :------------------------------------------------------: | :------------------------------------------------------: |
 | ![An alternative description](docs/images/gal_adop1.png) | ![An alternative description](docs/images/gal_adop2.png) |
-|                        Contact us                        |                        Contact us                        |
+|                         Adopt me                         |                         Adopt me                         |
 
 ## Team
 
